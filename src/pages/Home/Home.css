@@ -1,0 +1,15 @@
+.home {
+  padding: var(--spacing-lg);
+  background: var(--color-bg);
+  min-height: 100vh;
+}
+
+.home h1 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.home p {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+}

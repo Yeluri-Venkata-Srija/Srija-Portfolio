@@ -1,42 +1,46 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+ :root {
+  /* Primary (Elegant SeaGreen) */
+  --color-primary: #2f8f83;
+  --color-primary-light: #5fb3a9;
+  --color-primary-dark: #1e5f59;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+  /* Secondary (Soft Lavender) */
+  --color-secondary: #c8a2ff;
+  --color-secondary-light: #e6d6ff;
+  --color-secondary-dark: #9a7fd1;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  /* Accent (for highlights) */
+  --color-accent: #ffd6e8;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+  /* Backgrounds */
+  --color-bg: #f7f9fc;
+  --color-surface: #ffffff;
 
-.card {
-  padding: 2em;
-}
+  /* Text */
+  --color-text-primary: #1f2933;
+  --color-text-secondary: #52606d;
+  --color-text-light: #ffffff;
 
-.read-the-docs {
-  color: #888;
+  /* Borders & Shadows */
+  --color-border: #e4e7eb;
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.06);
+
+  /* Gradients (for modern look) */
+  --gradient-primary: linear-gradient(135deg, #2f8f83, #c8a2ff);
+  --gradient-soft: linear-gradient(135deg, #e6d6ff, #dff5f2);
+
+  /* Typography */
+  --font-family: 'Poppins', sans-serif;
+
+  /* Spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  /* Radius */
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Transition */
+  --transition: 0.3s ease;
 }
