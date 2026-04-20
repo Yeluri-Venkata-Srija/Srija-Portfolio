@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects/Projects";
 import Home from "./pages/Home/Home";
 
-import Header from "./Commonone/Header/Header";
-import Footer from "./Commonone/Footer/Footer";
+import Header from "./common/Header/Header";
+import Footer from "./common/Footer/Footer";
 
 import "./App.css";
 
