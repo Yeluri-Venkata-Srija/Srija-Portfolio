@@ -1,12 +1,10 @@
 .about-section {
-  padding: var(--spacing-lg);
   background: var(--color-surface);
   text-align: center;
 }
 
 .about-section h2 {
   color: var(--color-primary);
-  margin-bottom: var(--spacing-md);
 }
 
 .about-section p {

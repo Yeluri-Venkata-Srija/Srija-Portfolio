@@ -1,13 +1,9 @@
 .projects-section {
-  padding: var(--spacing-lg);
   background: var(--color-bg);
   text-align: center;
 }
 
 .project-card {
-  margin-top: var(--spacing-md);
-  padding: var(--spacing-md);
-  border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
   background: var(--color-surface);
 }

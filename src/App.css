@@ -31,18 +31,6 @@
 
   /* Typography */
   --font-family: 'Poppins', sans-serif;
-
-  /* Spacing */
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-
-  /* Radius */
-  --radius-md: 12px;
-  --radius-lg: 20px;
-
-  /* Transition */
-  --transition: 0.3s ease;
 }
 
 * {

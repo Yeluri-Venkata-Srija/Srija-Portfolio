@@ -1,12 +1,11 @@
 .skills-section {
-  padding: var(--spacing-lg);
   background: var(--color-bg);
   text-align: center;
 }
 
 .skills-grid {
   display: flex;
-  gap: var(--spacing-md);
+  gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
 }
