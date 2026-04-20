@@ -1,0 +1,21 @@
+.education-section {
+  padding: var(--spacing-lg);
+  background: var(--color-surface);
+  text-align: center;
+}
+
+.education-card {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: inline-block;
+}
+
+.education-card h3 {
+  color: var(--color-primary);
+}
+
+.education-card p {
+  color: var(--color-text-secondary);
+}
