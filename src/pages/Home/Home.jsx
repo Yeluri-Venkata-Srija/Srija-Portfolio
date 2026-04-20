@@ -1,12 +1,19 @@
 import "./Home.css";
 
+import Hero from "./Hero/Hero";
+import About from "./About/About";
+import MyProjects from "./MyProjects/MyProjects";
+import Education from "./Education/Education";
+
 function Home() {
   return (
     <div className="home">
-      <h1>Home Page</h1>
-      <p>This is the home section of the portfolio.</p>
+      <Hero />
+      <About />
+      <Education />
+      <MyProjects />
     </div>
   );
 }
 
-export default Home; 
+export default Home;
